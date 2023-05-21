@@ -1,0 +1,33 @@
+{
+  "name": "flowAlongSvgPath",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c rollup-config.js --watch"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-minify": "^0.5.1",
+    "rollup": "^2.32.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-babel-minify": "^10.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-uglify-es": "^0.0.1",
+    "uglify-es": "^3.3.9"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lil-gui": "^0.18.1",
+    "three": "^0.152.2",
+    "zrender": "^5.4.3"
+  }
+}
